@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENSAJE SECRETO!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    
+
+   
+</head>
+<body>
+ <h1>¡BIENVENIDO A MENSAJE SECRETO!</h1>
+<h2>AQUI PODRAS CIFRAR TUS MENSAJES PARA TUS CITAS ONLINE ;)</h2>
+
+<form>
+<div class= "contenedor">
+ <label for="mensaje">Ingresa tu texto</label><br>
+ <input type= "text" id= "mensaje" placeholder="Ingrese su texto"><br>
+
+ <label for="mensaje2">Desplazamiento</label><br>
+ <input type= "number" id= "desplazamiento" size= "3" placeholder="Desplazamiento"><br>
+
+
+ <button type= "button" id= "cifrar">CIFRAR</button>
+ <button type= "button" id= "descifrar">DESCIFRAR</button>
+<br>
+ <label for="mensaje2">Resultado</label><br>
+ <input type= "text" id= "mensaje2" placeholder="Texto Cifrado" readonly= "false"><br>
+</div>
+</form>
+<script src="index.js" type="module"></script>
+</body>
 </html>

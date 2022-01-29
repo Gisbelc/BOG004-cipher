@@ -1,0 +1,65 @@
+body {
+  background-image: url(https://descargarfondos.com/wp-content/uploads/Teclas-de-amor.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+h1 {
+  padding-left: 380px;
+  color: rgb(255, 252, 252);
+  font-family: Acme, sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  padding-left: 270px;
+  color: rgb(255, 252, 252);
+  font-family: Acme, sans-serif;
+  font-size: 30px;
+  ;
+}
+
+
+p {
+font-family: Acme, sans-serif;
+padding-inline: 14cm;
+font-size: 25px;
+color:rgb(255, 252, 252);
+}
+
+form {
+  font-family: Acme, sans-serif;
+padding-inline: 14cm;
+
+}
+
+input {
+  margin: 1px;
+  padding: 3px;
+
+}
+
+button {
+  background-color:black;
+  font-family: Acme, sans-serif;
+  color: white;
+  padding: 10px;
+}
+
+label {
+  color: rgb(255, 252, 252);
+}
+
+
+.contenedor {
+  width: 240px;
+  background:rgba(117, 91, 91, 0.795);
+  margin: auto; 
+  margin-top: 100px;
+  border-radius: 6px;
+  font-family: Acme, sans-serif;
+  color: white;
+  padding-left: 60px;
+
+}
