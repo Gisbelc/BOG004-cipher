@@ -12,23 +12,25 @@
    
 </head>
 <body>
- <h1>¡BIENVENIDO A MENSAJE SECRETO!</h1>
-<h2>AQUI PODRAS CIFRAR TUS MENSAJES PARA TUS CITAS ONLINE ;)</h2>
+<h1>¿DESCUBRISTE EL MAS OSCURO DE LOS SECRETOS?</h1>
+<h2>¿QUIERES CONTARLE A ALGUIEN PERO QUE NADIE SE ENTERE?</h2>
+<p>CIFRARLO ES TU MEJOR OPCIÓN</p>
+
+
 
 <form>
 <div class= "contenedor">
  <label for="mensaje">Ingresa tu texto</label><br>
- <input type= "text" id= "mensaje" placeholder="Ingrese su texto"><br>
+ <textarea type= "text" id= "mensaje" placeholder="Ingrese su texto"></textarea>
 
  <label for="mensaje2">Desplazamiento</label><br>
  <input type= "number" id= "desplazamiento" size= "3" placeholder="Desplazamiento"><br>
 
-
- <button type= "button" id= "cifrar">CIFRAR</button>
- <button type= "button" id= "descifrar">DESCIFRAR</button>
+ <button type= "button" class= "btn-dark" id= "cifrar">CIFRAR</button>
+ <button type= "button" class= "btn-dark" id= "descifrar">DESCIFRAR</button>
 <br>
  <label for="mensaje2">Resultado</label><br>
- <input type= "text" id= "mensaje2" placeholder="Texto Cifrado" readonly= "false"><br>
+ <textarea type= "text" id= "mensaje2" placeholder="Texto Cifrado" readonly= "false"></textarea>
 </div>
 </form>
 <script src="index.js" type="module"></script>

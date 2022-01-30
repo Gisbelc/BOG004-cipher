@@ -1,7 +1,6 @@
 import cipher from './cipher.js';
-    
- //CIFRAR
 
+ //CIFRAR
 document.getElementById("cifrar").addEventListener("click", ()=>{
     let mensaje = document.getElementById("mensaje").value;
     let desplazamiento = document.getElementById("desplazamiento").value;
