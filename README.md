@@ -14,7 +14,8 @@ A todos los usuarios que quieran cifrar o descifrar palabras, frases o contrase√
 - Escoger el n√∫mero de veces que desea desplazar las letras 
 - Presione "CIFRAR" y obtendra el resultado 
 - Presione "DESCIFRAR" para reversar el cifrado
+![CIFRADO](https://user-images.githubusercontent.com/97894844/151735127-5687bcb9-e419-4c95-a535-ea6bd5dc18a3.png)
 
-![image](https://user-images.githubusercontent.com/97894844/151734959-4f6872a1-179e-4b64-a86d-7468f496fc55.png)
+
 
 
