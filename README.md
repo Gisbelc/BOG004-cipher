@@ -9,15 +9,6 @@ El cifrado de César también conocido como cifrado por desplazamiento es una de
 ## A quien va dirigido 
 A todos los usuarios que quieran cifrar o descifrar palabras, frases o contraseñas! 
 
-## Instrucciones de Uso 
-Escribe una palabra o frase y escoge la canti
-Escoge la cantidad de espacios que deseas desplazar las letras 
-Presiona el botón "CIFRAR"
-Si deseas desencriptar el mensaje presiona el botón "DESCIFRAR"
-
-## Tecnología Usada 
-1.HTML 
-2.CSS
-3.JAVASCRIPT 
-
+h1 Va dirigido a todos 
+h1 hola 
 
