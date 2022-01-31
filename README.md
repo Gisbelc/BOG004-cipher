@@ -9,6 +9,5 @@ El cifrado de César también conocido como cifrado por desplazamiento es una de
 ## A quien va dirigido 
 A todos los usuarios que quieran cifrar o descifrar palabras, frases o contraseñas! 
 
-h1 Va dirigido a todos 
-h1 hola 
 
+![fondo trello](https://user-images.githubusercontent.com/97894844/151734592-ed89844c-2096-4868-97fe-618ecd4f545d.jpg)
