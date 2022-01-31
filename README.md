@@ -15,3 +15,6 @@ A todos los usuarios que quieran cifrar o descifrar palabras, frases o contrase√
 - Presione "CIFRAR" y obtendra el resultado 
 - Presione "DESCIFRAR" para reversar el cifrado
 
+![image](https://user-images.githubusercontent.com/97894844/151734959-4f6872a1-179e-4b64-a86d-7468f496fc55.png)
+
+
