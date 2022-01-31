@@ -9,5 +9,9 @@ El cifrado de César también conocido como cifrado por desplazamiento es una de
 ## A quien va dirigido 
 A todos los usuarios que quieran cifrar o descifrar palabras, frases o contraseñas! 
 
+## Instrucciones de Uso 
+- Primero debe ingresar la frase que desea cifrar
+- Escoger el número de veces que desea desplazar las letras 
+- Presione "CIFRAR" y obtendra el resultado 
+- Presione "DESCIFRAR" para reversar el cifrado
 
-![fondo trello](https://user-images.githubusercontent.com/97894844/151734592-ed89844c-2096-4868-97fe-618ecd4f545d.jpg)
