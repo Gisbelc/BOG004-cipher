@@ -16,7 +16,8 @@ A todos los usuarios que quieran cifrar o descifrar palabras, frases o contrase√
 - Presione "DESCIFRAR" para reversar el cifrado
 
 
-![CIFRADO](https://user-images.githubusercontent.com/97894844/151735127-5687bcb9-e419-4c95-a535-ea6bd5dc18a3.png)
+![CIFRADO](https://user-images.githubusercontent.com/97894844/151735127-5687bcb9-e419-4c95-a535-ea6bd5dc18a3.png) ![DESCIFRADO](https://user-images.githubusercontent.com/97894844/151735315-b47cab98-8eea-4a39-a12f-a381cd9d3a3a.png)
+
 
 
 
