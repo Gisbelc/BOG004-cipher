@@ -1,18 +1,17 @@
 import cipher from './cipher.js';
 
  //CIFRAR
-document.getElementById("cifrar").addEventListener("click", () =>{
-    let mensaje = document.getElementById("mensaje").value;
-    let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = cipher.encode(desplazamiento, mensaje.toUpperCase()); 
+document.getElementById("code").addEventListener("click", () =>{
+    let text = document.getElementById("text").value;
+    let offset = document.getElementById("offset").value;
+    document.getElementById("text2").value = cipher.encode(offset, text.toUpperCase()); 
 });
 
 //DESCIFRAR
-document.getElementById("descifrar").addEventListener("click", ()=>{ 
-    let mensaje2 = document.getElementById("mensaje").value;
-    let desplazamiento = document.getElementById("desplazamiento").value;
+document.getElementById("decode").addEventListener("click", ()=>{ 
+    let text2 = document.getElementById("text").value;
+    let offset = document.getElementById("offset").value;
     
-    document.getElementById("mensaje2").value = cipher.decode(desplazamiento, mensaje2.toUpperCase());   
+    document.getElementById("text2").value = cipher.decode(offset, text2.toUpperCase());   
 });
 console.log(cipher);
-

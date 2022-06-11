@@ -4,34 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENSAJE SECRETO!</title>
+    <title>CIPHER!</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Inter:wght@300;800;900&display=swap" rel="stylesheet">
 
    
 </head>
 <body>
-    <div id = "contenedor"  
- >CIFRADO CESAR</div>
+    
+    <h1 class="subtitle">ENCRYPT YOUR CODE </h1>
 
 
 
-<form>
-<div class= "contenedor">
- <label for="mensaje">Ingresa tu texto</label><br>
- <textarea type= "text" id= "mensaje" placeholder="Ingrese su texto"></textarea>
+    <form>
+<p class="text">Enter  your text</p>
+<textarea class="field" type= "text" id= "text"></textarea>
+<p class="text-offset">Offset</p>
+<input class="field-offset" type= "number" id= "offset" size= "3"><br>
+<button type= "button" class= "btn" id= "code">CODE</button>
+<button type= "button" class= "btn" id= "decode">DECODE</button>
+<p class="text">Result</p>
+<textarea class="field" type= "text" id= "text2"></textarea>
+    </form>
 
- <label for="mensaje2">Desplazamiento</label><br>
- <input type= "number" id= "desplazamiento" size= "3" placeholder="Desplazamiento"><br>
-
- <button type= "button" class= "btn-dark" id= "cifrar">CIFRAR</button>
- <button type= "button" class= "btn-dark" id= "descifrar">DESCIFRAR</button>
-<br>
- <label for="mensaje2">Resultado</label><br>
- <textarea type= "text" id= "mensaje2" placeholder="Texto Cifrado"></textarea>
-</div>
-</form>
-<script src="index.js" type="module"></script>
+<script src="index.js" type="module"></script> 
 </body>
 </html>

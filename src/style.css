@@ -1,63 +1,79 @@
+
+*{
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 15px;
+ 
+
+}
 body {
-  background-color: #c1bdba;
+  background-image:url(https://www.xtrafondos.com/descargar.php?id=3472&resolucion=2560x1440);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size:cover;
 }
 
-
-#contenedor {
-  padding-left: 540px;
-  color:  #1ab188;
-  font-family: Acme, sans-serif;
-  font-size: 40px;
-  background-color: #13232f;
+.subtitle{
+display: flex;
+align-items: center;
+justify-content: center;
+color:#fff;
+margin: 60px;
+font-size: 30px;
 }
 
 form {
-  font-family: Acme, sans-serif;
-padding-inline: 14cm;
-
+background-color:  rgba(54, 1, 93, 0.73);
+border-radius: 10px;
+margin: auto auto;
+width: 400px;
+padding: 3px;
 }
-
-textarea {
-  margin: 1px;
-  padding: 3px;
-  font-family: Acme, sans-serif;
-
+.field-offset{
+  position: relative;
+  left: 110px;
+  border: none;
+  width: 190px;
 }
-
-label {
-  color: white;
+.text-offset{
+  position: relative;
+  left: 105px;
+  top: 10px;
+  color: #fff;
 }
-
-
-.contenedor {
-  width: 240px;
-  background: #13232f;
-  margin: auto; 
-  margin-top: 100px;
-  border-radius: 6px;
-  font-family: Acme, sans-serif;
-  color: white;
-  padding-left: 50px;
-
+.field {
+  position: relative;
+  left: 80px;
+  background-color: rgba(253, 0, 106, 0.35);
+  border: none;
+  width: 250px;
 }
-
-.btn-dark {
-font-family: Acme, sans-serif;
-position: relative;
-display: inline-block;
-padding: 5px 10px;
-color: black;
-letter-spacing: 4px;
-font-size: 15px;
-text-decoration: none;
-overflow: hidden;
-transition: 0s;
+.text{
+  position: relative;
+  left: 80px;
+  top: 10px;
+  color: #fff;
 }
-
-.btn-dark:hover {
-  background:  #1ab188;
-  box-shadow: 0 0 10px  #1ab188, 0 0 20px  #1ab188, 0 0 30px #1ab188; 
+.btn {
+  position: relative;
+  left: 90px;
+  width: 100px;
+  height: 40px;
+  margin: 10px 0px 0px 10px;
+  background: rgba(76, 13, 119, 0.85);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0s;
+  border: hidden;
+  }
   
-}
+  .btn:hover {
+    background:  #FD006A;
+    box-shadow: 0 0 10px  #FD006A, 0 0 20px  #FD006A, 0 0 30px #FD006A; 
+    border: #FD006A ;
+    
+  }
